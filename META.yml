@@ -20,7 +20,7 @@ name: Escape-Houdini
 provides:
   Escape::Houdini:
     file: lib/Escape/Houdini.pm
-    version: v0.1.1
+    version: v0.1.2
 requires:
   DynaLoader: 0
   Exporter: 0
@@ -31,7 +31,7 @@ resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Escape-Houdini
   homepage: http://search.cpan.org/dist/Escape-Houdini/
   repository: https://github.com/yanick/Escape-Houdini.git
-version: 0.1.1
+version: 0.1.2
 x_author_pledge:
   version: 1
 x_authority: cpan:YANICK
