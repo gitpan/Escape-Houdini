@@ -50,10 +50,10 @@
    "provides" : {
       "Escape::Houdini" : {
          "file" : "lib/Escape/Houdini.pm",
-         "version" : "v0.1.2"
+         "version" : "v0.1.3_0"
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
          "mailto" : "bug-escape-houdini at rt.cpan.org",
@@ -66,7 +66,7 @@
          "web" : "https://github.com/yanick/Escape-Houdini"
       }
    },
-   "version" : "0.1.2",
+   "version" : "0.1.3_0",
    "x_author_pledge" : {
       "version" : 1
    },

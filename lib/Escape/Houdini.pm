@@ -3,7 +3,7 @@ BEGIN {
   $Escape::Houdini::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Escape::Houdini::VERSION = '0.1.2';
+  $Escape::Houdini::VERSION = '0.1.3_0';
 }
 # ABSTRACT: Perl API to Houdini, a zero-dependency C web escaping library
 
@@ -41,7 +41,7 @@ Escape::Houdini - Perl API to Houdini, a zero-dependency C web escaping library
 
 =head1 VERSION
 
-version 0.1.2
+version 0.1.3_0
 
 =head1 SYNOPSIS
 
@@ -59,7 +59,8 @@ This version of I<Escape::Houdini> has been built against
 commit 
 I<e6f0ec96b85578a2fd8ab79af84493cad3a84cfb>
 (Wed Apr 17 17:24:20 2013 +0200) 
-of Houdini.
+of Houdini, plus a mini-patch from your truly 
+(see L<https://github.com/vmg/houdini/pull/13>).
 
 =head1 FUNCTIONS
 
