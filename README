@@ -3,7 +3,7 @@ NAME
     library
 
 VERSION
-    version 0.1.3_0
+    version 0.1.4
 
 SYNOPSIS
         use Escape::Houdini ':all';
