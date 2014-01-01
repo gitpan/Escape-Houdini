@@ -4,7 +4,7 @@ Escape::Houdini - Perl API to Houdini, a zero-dependency C web escaping library
 
 # VERSION
 
-version 0.1.4
+version 0.2.0
 
 # SYNOPSIS
 
@@ -19,11 +19,9 @@ _Escape::Houdini_ is a wrapper around the zero-depedency, minimalistic
 web escaping C library Houdini.
 
 This version of _Escape::Houdini_ has been built against 
-commit 
-_e6f0ec96b85578a2fd8ab79af84493cad3a84cfb_
-(Wed Apr 17 17:24:20 2013 +0200) 
-of Houdini, plus a mini-patch from your truly 
-(see [https://github.com/vmg/houdini/pull/13](https://github.com/vmg/houdini/pull/13)).
+the commit
+[https://github.com/christianbundy/houdini/commit/1fcafc310573b0f91bd4fc77b22b95bc4e6ecbff](https://github.com/christianbundy/houdini/commit/1fcafc310573b0f91bd4fc77b22b95bc4e6ecbff)
+of Houdini.
 
 # FUNCTIONS
 
@@ -78,6 +76,8 @@ and _unescape\_js_) and _:all_ (for... well, all of them).
 # SEE ALSO
 
 Houdini (natch) - [https://github.com/vmg/houdini](https://github.com/vmg/houdini)
+
+The active fork currently used - [https://github.com/christianbundy/houdini](https://github.com/christianbundy/houdini)
 
 # AUTHOR
 

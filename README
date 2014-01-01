@@ -3,7 +3,7 @@ NAME
     library
 
 VERSION
-    version 0.1.4
+    version 0.2.0
 
 SYNOPSIS
         use Escape::Houdini ':all';
@@ -15,10 +15,9 @@ DESCRIPTION
     *Escape::Houdini* is a wrapper around the zero-depedency, minimalistic
     web escaping C library Houdini.
 
-    This version of *Escape::Houdini* has been built against commit
-    *e6f0ec96b85578a2fd8ab79af84493cad3a84cfb* (Wed Apr 17 17:24:20 2013
-    +0200) of Houdini, plus a mini-patch from your truly (see
-    <https://github.com/vmg/houdini/pull/13>).
+    This version of *Escape::Houdini* has been built against the commit
+    <https://github.com/christianbundy/houdini/commit/1fcafc310573b0f91bd4fc
+    77b22b95bc4e6ecbff> of Houdini.
 
 FUNCTIONS
   escape_html( $text )
@@ -60,6 +59,9 @@ EXPORTS
 
 SEE ALSO
     Houdini (natch) - <https://github.com/vmg/houdini>
+
+    The active fork currently used -
+    <https://github.com/christianbundy/houdini>
 
 AUTHOR
     Yanick Champoux <yanick@cpan.org>

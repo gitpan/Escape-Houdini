@@ -57,3 +57,9 @@ output buffer will be empty.
 ### Questions?
 
 Open an issue. Or shout angrily at me on Twitter ([@vmg](https://twitter.com/vmg)).
+
+---
+
+This is a maintained fork, and all reasonable pull requests should be merged quickly.
+
+Feel free to harass me on Twitter ([@christianbundy](http://twitter.com/christianbundy)).

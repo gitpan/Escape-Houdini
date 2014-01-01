@@ -4,7 +4,7 @@
       "Yanick Champoux <yanick@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -40,8 +40,9 @@
       },
       "test" : {
          "requires" : {
-            "File::Find" : "0",
-            "File::Temp" : "0",
+            "File::Spec" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
             "Test::Exception" : "0",
             "Test::More" : "0.88"
          }
@@ -50,7 +51,7 @@
    "provides" : {
       "Escape::Houdini" : {
          "file" : "lib/Escape/Houdini.pm",
-         "version" : "v0.1.4"
+         "version" : "v0.2.0"
       }
    },
    "release_status" : "stable",
@@ -66,7 +67,7 @@
          "web" : "https://github.com/yanick/Escape-Houdini"
       }
    },
-   "version" : "0.1.4",
+   "version" : "0.2.0",
    "x_author_pledge" : {
       "version" : 1
    },

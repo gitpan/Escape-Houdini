@@ -13,7 +13,7 @@ unescape(gh_buf *ob, const uint8_t *src, size_t size, int is_url)
 
 	while (i < size) {
 		org = i;
-		while (i < size && src[i] != '%')
+		while (i < size && src[i] != '%' && (!is_url || src[i] != '+'))
 			i++;
 
 		if (likely(i > org)) {
@@ -33,19 +33,15 @@ unescape(gh_buf *ob, const uint8_t *src, size_t size, int is_url)
 
 		i++;
 
-		if (i + 1 < size && _isxdigit(src[i]) && _isxdigit(src[i + 1])) {
+        if (is_url && src[i - 1] == '+') {
+			gh_buf_putc(ob, ' ');
+        } else if (i + 1 < size && _isxdigit(src[i]) && _isxdigit(src[i + 1])) {
 			unsigned char new_char = (hex2c(src[i]) << 4) + hex2c(src[i + 1]);
 			gh_buf_putc(ob, new_char);
 			i += 2;
 		} else {
 			gh_buf_putc(ob, '%');
 		}
-	}
-
-	if (is_url) {
-		char *find = (char *)gh_buf_cstr(ob);
-		while ((find = strchr(find, '+')) != NULL)
-			*find = ' ';
 	}
 
 	return 1;
