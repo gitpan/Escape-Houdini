@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.73.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,16 +15,16 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 c1c2c9bcb2a4b03fa67eed0de488c4684f553b17 AUTHOR_PLEDGE
-SHA1 c4d30aa641a0f380e50c5812bb697b069168971f Build.PL
-SHA1 96bb6e95ea543a68bb44c180ee7a704498ef3268 CONTRIBUTORS
-SHA1 c26f6d1ceb59aa2478bb7dddcd6d36f7a360fa6a Changes
+SHA1 72023842f23a1a0c846b81135f2c095197026fe5 Build.PL
+SHA1 bb75278d6ccde72d0a936bfe5c3c016f4885b44b CONTRIBUTORS
+SHA1 5d0fd508cf3219e5059f93e3d4effacb7f841303 Changes
 SHA1 5e8a5abbd78776e4eb8f217d39d2e1f2ade7b9d0 INSTALL
 SHA1 cf5dc9c929415cfa7133eed863def866ade9774d LICENSE
 SHA1 b9715ca62d7f9bd08146e3a138bfa346e12a1f9f MANIFEST
-SHA1 1c486c633924ea4a75ee761c508c7eda04320f84 META.json
-SHA1 237a0f4b3a19d260ae9e14869479d69ae5154d82 META.yml
-SHA1 2886cef61c4093e379313c69b6540fbbb61c3984 README
-SHA1 6229333957cf36b5e8e6ab22fab4dd36e3195582 README.mkdn
+SHA1 517af30aea28be49c6a5518f0ff924d7372c7b74 META.json
+SHA1 39f9ba5327e4055e6dd0f48a8888edb9b83f0123 META.yml
+SHA1 dfcda8153a84231f80dbde4322cb8ae9c8df5937 README
+SHA1 533b5d51421c9b1ff2ffa72344947abc4a7fbad6 README.mkdn
 SHA1 eee81835af3c088d21feb69bd96456f104eb8223 contrib/benchmark.pl
 SHA1 a37066e84e1be0c03f923a44b9730cf649b2827a houdini/COPYING
 SHA1 abe0b25fe2fe0ec30adc9602de01c81d1720a3f7 houdini/Makefile
@@ -46,19 +46,19 @@ SHA1 bd71f0cf455aebc808ec875c565c506e52eed82d houdini/tools/build_table.py
 SHA1 9597efe09323ac5634edd83200ef74b53c5ec41e houdini/tools/build_tables.c
 SHA1 c00c861d1ac98baa4124749412bb4192a232783c houdini/tools/wikipedia_table.txt
 SHA1 aad4325edee6273871cd48c16bacf63bb57ce5c8 inc/MyBuild.pm
-SHA1 3886f8571e625a71f4f6bd3ee07b41a5b5b33747 lib/Escape/Houdini.pm
+SHA1 2380db05f0e858d4e8075d2fa814ce668821b666 lib/Escape/Houdini.pm
 SHA1 d1e7601004b5b10ad17e6d0053d00b981d1ca7f3 lib/Escape/Houdini.xs
-SHA1 daa2ebf7e54360a53b6d3ae5856c234e196e5501 t/00-compile.t
-SHA1 0ae3aa5b997b0911c4c991a99ad4400a203cacba t/000-report-versions-tiny.t
+SHA1 d623a0f57b060e0a1346cead02d47981e778beac t/00-compile.t
+SHA1 61977fbf5f8ad193a7be002c0524a0843e1c7660 t/000-report-versions-tiny.t
 SHA1 a0c2623e0ed2eea7846f5a2d66f985e3e2630069 t/basic.t
-SHA1 9e6765b0b071e3b3dfa753089c4519c567c377c3 t/gc.t
+SHA1 1367a9b3d69c467e5898cc0b5a76cdc6c98164ad t/gc.t
 SHA1 1150ca5d7440f976350b74c322eea568200e36c4 t/growth.t
 SHA1 824c754ed58806e2bd84903254afdee984c0e505 t/samples.t
 SHA1 ec3f84bfd7a9ce3246e7592f4134100c6b5ce02b xt/release/unused-vars.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.14 (GNU/Linux)
 
-iEYEARECAAYFAlLEe/MACgkQ34Hwf+GwC4xx3gCdHh/AA6yeVelA/3S3e1+uoPyJ
-qpMAoJnQpVGwmWt2ufX2amqiMwRW3AZg
-=Ocqw
+iEYEARECAAYFAlLwRgwACgkQ34Hwf+GwC4xMhQCgkgz8o0ZRsq+Hu3w9Eofk2JTy
+m0MAoOuKx5RghddWz5eZxUkZJU91c3mT
+=F7Hd
 -----END PGP SIGNATURE-----
